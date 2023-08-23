@@ -12,12 +12,12 @@ h1, h2 {
   font-weight: bold;
 }
 h2 {
-  color: #A0A0A0;
+  color: #494949;
   font-weight: normal;
 }
 a {
   text-decoration: none;
-  color: #A0A0A0;
+  color: #494949;
 }
 
 /* Custom-design */
@@ -29,6 +29,7 @@ a {
 }
 .banner h1 {
   font-size: 38px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 .banner p {
   font-size: 30px;
@@ -47,20 +48,38 @@ a {
   font-style: italic;
 }
 .link-medium:hover {
-  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+.link-to-site{
+  color: rgb(186, 214, 214);
+
 }
 /* Navbar */
-.navbar{
-  position: sticky;
-  font-family: 'Playfair Display', serif;
-  color: #D3E4B7;
-  font-weight: 700;
-  ul{
-    display: block;
-  }
+.nav-container {
+  background: #171717;
+  width: 100vw;
 }
-.nav-item{
-    list-style-type: none;
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+ul a{
+  display: block;
+  padding: 0 1em;
+  color: aliceblue;
+}
+li{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+nav{
+  float: right;
+}
+ul{
+  display: flex;
+
 }
 /* Media-queries */
 @media(max-width: 900px) {
