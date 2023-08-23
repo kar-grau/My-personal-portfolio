@@ -49,7 +49,15 @@ a {
 .link-medium:hover {
   background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}
 }
-
+/* Navbar */
+.navbar{
+  postition: sticky;
+  font-family: 'Playfair Display', serif;
+  color: #D3E4B7;
+}
+li{
+  text-decoration: none;
+}
 /* Media-queries */
 @media(max-width: 900px) {
   .container {
