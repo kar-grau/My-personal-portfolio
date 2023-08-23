@@ -51,7 +51,7 @@ a {
 }
 /* Navbar */
 .navbar{
-  postition: sticky;
+  position: sticky;
   font-family: 'Playfair Display', serif;
   color: #D3E4B7;
   font-weight: 700;
