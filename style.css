@@ -56,7 +56,7 @@ a {
   color: #D3E4B7;
   font-weight: 700;
 }
-li{
+.nav-item{
   text-decoration: none;
 }
 /* Media-queries */
