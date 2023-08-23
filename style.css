@@ -57,7 +57,7 @@ a {
   font-weight: 700;
 }
 .nav-item{
-  text-decoration: none;
+    list-style-type: none;
 }
 /* Media-queries */
 @media(max-width: 900px) {
