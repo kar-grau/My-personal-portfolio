@@ -38,7 +38,7 @@ a {
 }
 .container {
   width: 700px;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 .link-medium {
   background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
