@@ -9,9 +9,150 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
   <div class="nav-container">
+    <header>
+      <a href="#" class="logo"><img src="images/smilelogo.svg" alt="Smile" style="width: 56px;height:56px;"
+                viewBox="0 0 37.2 37.2"> </a>
+      <nav>
+          <ul>
+              <li><a href="/callmekar.html">Call me Kar </li>
+          </ul>
+      </nav>
+      <div class="date">
+        <a href="#"> <script>
+          // const today = new Date(); document.write(today).format('DDD, MMM, YYY')
+          const today = new Date();
+
+        const day = today.getDate();
+        const month = today.getMonth() + 1;
+        const year = today.getFullYear();
+
+          const monthNames = [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+          ];
+
+          const formattedDate = `${day} ${monthNames[month - 1]} ${year}`;
+
+          document.querySelector('.date').textContent = formattedDate;
+
+          </script> </a>
+      </div>
+  </header>
+</div>
+
+<!-- currently working on a better navbar -->
+
+  <!-- <div class="navbar navbar-expand-sm navbar-light navbar-kar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/smilelogo.svg"></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Call me Kar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <div class="nav-bar">
+            <header>
+              <div class="date">
+                <a>
+                  <script>
+                    // const today = new Date(); document.write(today).format('DDD, MMM, YYY')
+                    const today = new Date();
+
+                    const day = today.getDate();
+                    const month = today.getMonth() + 1;
+                    const year = today.getFullYear();
+
+                    const monthNames = [
+                      "January",
+                      "February",
+                      "March",
+                      "April",
+                      "May",
+                      "June",
+                      "July",
+                      "August",
+                      "September",
+                      "October",
+                      "November",
+                      "December"
+                    ];
+
+                    const formattedDate = `${day} ${monthNames[month - 1]} ${year}`;
+
+                    document.querySelector('.date').textContent = formattedDate;
+
+                  </script>
+                </a>
+              </div>
+            </header>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="nav-container">
+    <header>
+        <a href="index.html" class="logo"><img src="images/smile.svg" alt="Smile" style="width: 56px;height:56px;"
+                viewBox="0 0 37.2 37.2"> </a>
+        <nav>
+            <ul>
+                <li><a href="/callmekar.html">Call me Kar </li>
+            </ul>
+        </nav>
+        <div class="date">
+            <a>
+                <script>
+                // const today = new Date(); document.write(today).format('DDD, MMM, YYY')
+                const today = new Date();
+
+              const day = today.getDate();
+              const month = today.getMonth() + 1;
+              const year = today.getFullYear();
+
+                const monthNames = [
+                  "January",
+                  "February",
+                  "March",
+                  "April",
+                  "May",
+                  "June",
+                  "July",
+                  "August",
+                  "September",
+                  "October",
+                  "November",
+                  "December"
+                ];
+
+                const formattedDate = `${day} ${monthNames[month - 1]} ${year}`;
+
+                document.querySelector('.date').textContent = formattedDate;
+
+                </script>
+            </a>
+        </div>
+    </header>
+</div> -->
+
+  <!-- <div class="navbar nav-bar-expand-sm navbar-light">
     <header>
         <a href="index.html" class="logo"><img src="images/smilelogo.svg" alt="logo" style="width: 56px;height:56px;"> </a>
         <nav class="nav-ul">
@@ -22,7 +163,7 @@
             </ul>
         </nav>
     </header>
-  </div>
+  </div> -->
 
 
   <div class="banner">
@@ -47,10 +188,20 @@
 
         <div class="Interested-in">
           <h2>Intrested in</h2>
-          <p>Interactive Digital Installations</p>
+
           <p>
-          I have been intrested in Interactive Digital art and augmented reality for a while now. One of the first artisit i came across was  <a href="https://www.sianfan.com/" target="_blank" class="link-to-site">Sian Fan</a>
+            For a while now,like many other cool gallery/art lovers I have been interested in Interactive Digital Installations. <br>
+            <br>
+            This type of exhibitions allows us to experince art in a different ways We can participate and can inmerse oursleves in it. And I am a sucker for this type of expositions! <br>
+            One artist to check out <a href="https://www.sianfan.com/" target="_blank" class="link-to-site">Sian Fan</a>
           </p>
+          <p>Check out some of this amazing Installations you should know about!</p>
+          <ul>
+            <li><a href="https://basa-studio.com/stories/breathtaking-digital-interactive-installations" target="_blank" class="link-to-site">Basa Studio</a></li>
+            <li><a href="https://vangoghexpo.com/london/" target="_blank" class="link-to-site">Van Gogh the immersive experince</a></li>
+            <li><a href="https://vangoghexpo.com/london/" target="_blank" class="link-to-site">Van Gogh the immersive experince</a></li>
+
+          </ul>
         </div>
 
     </div>
@@ -59,49 +210,52 @@
     <div class="container-pro">
       <div class="projects">
         <div class="title"><h1>Projects</h1></div>
-        <div class="cards-projects">
+          <div class="cards-projects">
+            <div class="cards">
 
-          <div class="card-pro">
-              <img src="images/kar-desktop-website.png" alt="project-1">
-            <div class="info">
-              <div>
-                <h2>Portfolio- Desktop trend
-                Created in Adobe XD see prototyping <a href="https://xd.adobe.com/view/05b7cae2-1271-4caf-8e09-0943610d9ded-50e4/" target="_blank">here!</a></h2>
+              <div class="card-pro">
+                  <img src="images/kar-desktop-website.png" alt="project-1">
+                <div class="info">
+                  <div>
+                    <h2>Portfolio- Desktop trend
+                    Created in Adobe XD and Illustrator see prototyping <a href="https://xd.adobe.com/view/05b7cae2-1271-4caf-8e09-0943610d9ded-50e4/" class="link-to-site" target="_blank">here!</a></h2>
+                  </div>
+                </div>
               </div>
+
+              <div class="card-pro">
+                <img src="images/bakersapp.svg" alt="project-1">
+                <div class="info">
+                  <div>
+                    <h2>Bakery app concept
+                    Created in Adobe XD illustrator & Photshop see more <a href="https://xd.adobe.com/view/05b7cae2-1271-4caf-8e09-0943610d9ded-50e4/" class="link-to-site" target="_blank">here!</a></h2>
+                  </div>
+              </div>
+              </div>
+
+              <div class="card-pro">
+                <img src="images/green.png" alt="project-1">
+                <div class="info">
+                  <div>
+                    <h2>Mockup for a cafe merch line.
+                    Created in Adobe Photoshop and Illustrator see more <a href="https://xd.adobe.com/view/05b7cae2-1271-4caf-8e09-0943610d9ded-50e4/" class="link-to-site" target="_blank">here!</a></h2>
+                  </div>
+              </div>
+              </div>
+
+              <div class="card-pro">
+                <img src="images/bakersapp.svg" alt="project-1">
+                <div class="info">
+                  <div>
+                    <h2>Portfolio- Desktop trend
+                    Created in Adobe XD see prototyping <a href="https://xd.adobe.com/view/05b7cae2-1271-4caf-8e09-0943610d9ded-50e4/" class="link-to-site" target="_blank">here!</a></h2>
+                  </div>
+              </div>
+              </div>
+
             </div>
-          </div>
 
-          <div class="card-pro">
-            <img src="images/bakersapp.svg" alt="project-1">
-            <div class="info">
-              <div>
-                <h2>Portfolio- Desktop trend
-                Created in Adobe XD see prototyping <a href="https://xd.adobe.com/view/05b7cae2-1271-4caf-8e09-0943610d9ded-50e4/" target="_blank">here!</a></h2>
-              </div>
           </div>
-          </div>
-
-          <div class="card-pro">
-            <img src="images/bakersapp.svg" alt="project-1">
-            <div class="info">
-              <div>
-                <h2>Portfolio- Desktop trend
-                Created in Adobe XD see prototyping <a href="https://xd.adobe.com/view/05b7cae2-1271-4caf-8e09-0943610d9ded-50e4/" target="_blank">here!</a></h2>
-              </div>
-          </div>
-          </div>
-
-          <div class="card-pro">
-            <img src="images/bakersapp.svg" alt="project-1">
-            <div class="info">
-              <div>
-                <h2>Portfolio- Desktop trend
-                Created in Adobe XD see prototyping <a href="https://xd.adobe.com/view/05b7cae2-1271-4caf-8e09-0943610d9ded-50e4/" target="_blank">here!</a></h2>
-              </div>
-          </div>
-          </div>
-          
-        </div>
       </div>
     </div>
 
