@@ -49,6 +49,7 @@ header{
 
 /* Custom-design */
 .banner {
+  opacity: 0.6;
   background-image: url("images-git/ikal.jpeg");
   background-size: cover;
   background-position: center center;
