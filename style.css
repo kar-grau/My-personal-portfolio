@@ -5,16 +5,12 @@
 /* body */
 body {
   color: #191919;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
   font-weight: lighter;
   font-family: 'Playfair Display', serif;
   margin: 0;
 }
-/* h1, h2 {
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
-} */
 h2 {
   color: #494949;
   font-weight: normal;
@@ -27,12 +23,13 @@ a {
 .nav-container {
   background: #232227;
   width: 100vw;
-  color: white;
+  /* color: white; */
+  color: rgb(149, 126, 255);
 }
 ul{
   list-style-type: none;
-  margin: 0;
-  padding: 10px;
+  /* margin: 0;
+  padding: 10px; */
 }
 .logo{
   padding-left: 2em;
@@ -49,34 +46,29 @@ header{
 
 /* Custom-design */
 .banner {
-  background-image: url("images-git/ikal.jpeg");
+  background-image: url("images/green.png");
   background-size: cover;
   background-position: center center;
+  /* height: 200px; */
   color: white;
-  padding: 120px 0;
+  padding: 10px 0;
+
 }
+
 .banner h1 {
-  font-size: 60px;
-  text-shadow: 1px 1px 3px rgba(0,0,0.4,0.6);
+  font-size: 80pt;
+  text-shadow: 1px 1px 3px rgba(1,0,0,0.6);
 }
 .banner p {
-  font-size: 30px;
+  font-size: 50pt;
   font-weight: lighter;
-  text-shadow: 1px 1px 3px rgba(0,0,0.4,0.5);
+  text-shadow: 1px 1px 3px rgba(1,0,0.6,0.5);
 /*   opacity: 0; */
 }
 .container {
   width: 900px;
-  margin: 50px auto;
+  margin:  50px auto;
 }
-/* .link-medium {
-  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
-  color: #636363;
-/*   font-weight: lighter; */
-
-/* .link-medium:hover {
-  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
-}  */
 .link-to-site{
   color: rgb(149, 126, 255);
 }
@@ -88,10 +80,12 @@ header{
 .projects{
   width: 80%;
   margin: 0px auto;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
+
 }
-.title h1{
-  font-size: 50pt;
+
+.title{
+  font-size: 25pt;
   text-align: center;
 }
 .cards-projects{
@@ -108,6 +102,7 @@ header{
 .projects p{
   color: #ffffff;
 }
+/*container new/
 
 /* Projects cards */
  .card-pro {
