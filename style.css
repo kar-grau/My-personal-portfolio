@@ -54,7 +54,7 @@ html{
 
 /* Custom-design banner */
 .banner {
-  background-image: url("images/green.png");
+  background-image: url("images-git/green.png");
   background-size: cover;
   background-position: center center;
   /* height: 200px; */
