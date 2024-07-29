@@ -62,46 +62,110 @@ html{
   /* background-image: url("images-git/green.png");
   background-size: cover;
   background-position: center center; */
-  place-content: center;
+  align-content: center;
   align-items: center;
   display: flex;
-  flex: 0 0 auto;
-  flex-flow: column;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
   gap: 10px;
-  justify-content: center;
-  padding:10%;
+  /* height: max-content; */
+  justify-content: flex-start;
+  overflow: hidden;
+  padding:0;
   position: relative;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: max-content;
   text-align: left;
+  background-color: antiquewhite;
 }
+.container-banner{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 55px;
+    position: relative;
+    width: 92%;
+
+  }
+  .mon-name{
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: max-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    width: 100%;
+  }
+  .profession{
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    padding: 0 0 0px;
+    width: 100%;
+  }
+  .info-work{
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    padding: 0 0 0;
+    width: 100%;
+  }
+  .button-contact{
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    padding: 0 0 180;
+    width: 100%;
+  }
+  
   .banner h1 {
-  font-size: 90pt;
+  font-size: 80pt;
   /* text-shadow: 1px 1px 3px rgba(1,0,0,1); */
   /* margin: auto; */
   color: rgb(0, 0, 0);
-  padding: 10px 0;
   /* text-align: center; */
   }
+
+  .banner h2{
+    font-size: 60pt;
+    color: rgb(0, 0, 0);
+  }
+
   .banner p {
-    font-size: 50pt;
+    font-size: 20pt;
     font-weight: lighter;
     margin: auto;
     text-align: center;
   }
-  .container-banner{
-    place-content: flex-start;
-    align-items: flex-start;
-    flex: 0 0 auto;
-    flex-flow: column;
-    gap: 0px;
-    height: min-content;
-    overflow: hidden;
 
-    padding: 0 0 30px;
-    width: 100%;
-    position: relative;
-  }
 
 /* About me */
 .container-about-me {
@@ -127,8 +191,8 @@ html{
 
 /* colour blob */
 .blob-motion{
-  position: absolute;
-  transform: translateY(-120%);
+  position: relative;
+  /* transform: translateY(-120%); */
   z-index: -1;
 }
 
