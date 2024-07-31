@@ -23,12 +23,13 @@ body {
   /* height: 55px; */
   color: white;
 
-  a {
-    text-decoration: none;
-    color: white;
-  }
+a {
+  text-decoration: none;
+  color: white;
+}
   ul{
     list-style-type: none;
+
   }
   .date{
     padding: 2em;
@@ -93,8 +94,24 @@ html{
     width: 92%;
 
   }
-  .mon-name{
+  .karina{
     align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    width: 100%;
+    margin: 0 0 0;
+  }
+  .mon-name{
+
+    /* align-items: flex-start;
     display: flex;
     flex: none;
     flex-direction: column;
@@ -106,9 +123,11 @@ html{
     position: relative;
     padding: 0;
     width: 100%;
+    margin: 0; */
   }
   .profession{
-    align-items: flex-start;
+
+    /* align-items: flex-start;
     display: flex;
     flex: none;
     flex-direction: column;
@@ -119,10 +138,11 @@ html{
     overflow: hidden;
     position: relative;
     padding: 0 0 0px;
-    width: 100%;
+    width: 100%; */
   }
   .info-work{
-    align-items: flex-start;
+    padding-top: 15px;
+    /* align-items: flex-start;
     display: flex;
     flex: none;
     flex-direction: column;
@@ -131,7 +151,7 @@ html{
     overflow: hidden;
     position: relative;
     padding: 0 0 0;
-    width: 100%;
+    width: 100%; */
   }
   .button-contact{
     align-items: flex-start;
@@ -141,22 +161,29 @@ html{
     flex-wrap: nowrap;
     justify-content: flex-start;
     overflow: hidden;
+    gap: 10px;
+    padding: 0 0 180px;
     position: relative;
-    padding: 0 0 180;
     width: 100%;
+    margin-top: 20px;
   }
-  
+/*
+  .button p{
+    font-size: clamp(10px, 1vw, 10px);
+
+  } */
   .banner h1 {
-  font-size: 80pt;
-  /* text-shadow: 1px 1px 3px rgba(1,0,0,1); */
-  /* margin: auto; */
-  color: rgb(0, 0, 0);
+    font-size: clamp(40px, 8vw, 95px);  /* text-shadow: 1px 1px 3px rgba(1,0,0,1); */
+    margin: 0 0 0;
+    color: rgb(0, 0, 0);
   /* text-align: center; */
   }
 
   .banner h2{
-    font-size: 60pt;
+    /* font-size: 60pt; */
+    font-size: clamp(25px, 4vw, 85px);
     color: rgb(0, 0, 0);
+    margin: 0 0 0;
   }
 
   .banner p {
@@ -164,6 +191,8 @@ html{
     font-weight: lighter;
     margin: auto;
     text-align: center;
+    font-size: clamp(15px, 2vw, 35px);
+    margin: 0 0 0;
   }
 
 
@@ -343,7 +372,9 @@ h2 {
   color: rgb(149, 126, 255);
 }
 
-/* Media-queries */
+/******** Media-queries **********/
+
+
 @media(max-width: 900px) {
   .container {
     width: 700px;
@@ -355,6 +386,9 @@ h2 {
   }
 
 }
+
+
+
 @media(max-width: 500px) {
   .container-banner {
     width: 350px;
@@ -369,6 +403,22 @@ h2 {
     font-size: 20px;
   }
 }
+
+
+
+/* cards */
+/* @media(max-width: 992px) {
+  .cards-projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .cards-projects {
+    grid-template-columns: 1fr;
+  }
+} */
+
 
 /* media */
 @media (max-width: 1100px) {
