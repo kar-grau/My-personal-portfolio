@@ -1,11 +1,14 @@
 /* Fonts colors */
 /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
 @import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
 @font-face {
   font-family: "OrangeSquashRegular";
   src: url('webFonts/OrangeSquashRegular/font.woff2') format('woff2'), url('webFonts/OrangeSquashRegular/font.woff') format('woff');
 }
-
+.OrangeSquashRegular {
+	font-family: OrangeSquashRegular;
+}
 
 /* body */
 body {
