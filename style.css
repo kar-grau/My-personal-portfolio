@@ -20,36 +20,49 @@ body {
 .nav-container {
   background: #232227;
   width: 100vw;
-  /* height: 55px; */
-  color: white;
 
-a {
+  /* height: 55px; */
+
+  color: white;
+}
+.nav-container a {
   text-decoration: none;
   color: white;
 }
+.nav-container ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+  .date{
+    padding: 1em;
+  }
+
   ul{
     list-style-type: none;
-
-  }
-  .date{
-    padding: 2em;
-
   }
   header{
     display: flex;
     justify-content: space-between;
+
     /* padding: 1em; */
+
     height: 55px;
     align-items: center;
+    padding: 0 1em;
   }
   nav ul{
     display: flex;
+    align-items: center;
   }
   nav a{
     display: block;
     padding: 0 1em;
+
   }
-}
+
 
 /*scroll */
 html{
@@ -109,9 +122,8 @@ html{
     width: 100%;
     margin: 0 0 0;
   }
-  .mon-name{
-
-    /* align-items: flex-start;
+  /* .mon-name{
+    align-items: flex-start;
     display: flex;
     flex: none;
     flex-direction: column;
@@ -123,11 +135,11 @@ html{
     position: relative;
     padding: 0;
     width: 100%;
-    margin: 0; */
-  }
-  .profession{
+    margin: 0;
+  } */
+  /* .profession{
 
-    /* align-items: flex-start;
+    align-items: flex-start;
     display: flex;
     flex: none;
     flex-direction: column;
@@ -138,20 +150,11 @@ html{
     overflow: hidden;
     position: relative;
     padding: 0 0 0px;
-    width: 100%; */
-  }
+    width: 100%;
+  } */
   .info-work{
     padding-top: 15px;
-    /* align-items: flex-start;
-    display: flex;
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    overflow: hidden;
-    position: relative;
-    padding: 0 0 0;
-    width: 100%; */
+
   }
   .button-contact{
     align-items: flex-start;
@@ -167,16 +170,12 @@ html{
     width: 100%;
     margin-top: 20px;
   }
-/*
-  .button p{
-    font-size: clamp(10px, 1vw, 10px);
 
-  } */
   .banner h1 {
     font-size: clamp(40px, 8vw, 95px);  /* text-shadow: 1px 1px 3px rgba(1,0,0,1); */
     margin: 0 0 0;
     color: rgb(0, 0, 0);
-  /* text-align: center; */
+
   }
 
   .banner h2{
