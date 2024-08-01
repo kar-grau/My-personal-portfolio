@@ -235,20 +235,31 @@ h2 {
 }
 
 
-/***************** Projects cards *****************/
+/** Projects cards **/
 .card-pro {
   background: white;
   padding-bottom: 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .card-pro img{
   width: 100%;
-  height: 80%;
+  /* height: 80%; */
+  height: 100%;
   display: block;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 
+}.card-pro .info {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  overflow-wrap: break-word;
 }
 .card-pro h2 {
   font-size: 26px;
@@ -260,13 +271,10 @@ h2 {
   opacity: .7;
   margin: 0;
 }
-.card-pro .info {
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
+.card-pro a{
+  text-decoration: none;
 }
+
 
 
 /* image gird */
@@ -355,20 +363,6 @@ h2 {
 /***************** Media-queries *****************/
 
 
-@media(max-width: 900px) {
-  .container {
-    width: 700px;
-  }
-}
-@media(max-width: 750px) {
-  .container {
-    width: 450px;
-  }
-
-}
-
-
-
 @media(max-width: 500px) {
   .container-banner {
     width: 350px;
@@ -387,17 +381,17 @@ h2 {
 
 
 /* cards */
-/* @media(max-width: 992px) {
-  .cards-projects {
+@media(max-width: 992px) {
+  .cards {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media(max-width: 768px) {
-  .cards-projects {
+  .cards {
     grid-template-columns: 1fr;
   }
-} */
+}
 
 
 /* media */
