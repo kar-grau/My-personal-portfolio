@@ -216,10 +216,13 @@ html{
   color: rgb(149, 126, 255);
 }
 
-.about-me h2{
+.about-me h2 {
   text-align: center;
 }
-
+.about-me p{
+  text-align: center;
+  text-decoration: underline;
+}
 
 /***************** colour blob ****************/
 .blob-motion{
