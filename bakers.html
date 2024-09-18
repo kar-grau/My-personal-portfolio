@@ -1,1 +1,127 @@
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Bakers App Concept">
+  <title>Bakers App Concept - Karina Basurto</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    body {
+      color: #191919;
+    }
+    .title {
+      padding: 8%;
+      text-align: center;
+    }
+    .container-project {
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 100px;
+    }
+    .card {
+      margin-top: 10px;
+      background: rgb(253, 250, 244);
+      border: none;
+      padding: 20px;
+      text-align: center;
+    }
+    .container-project img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding-top: 10px;
+    }
+    .image-grid .left {
+      grid-column: 1;
+    }
+    .image-grid .right {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-column: 2;
+      gap: 10px;
+    }
+    .image-grid .right img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+    }
+    .footer-links a {
+      margin: 0 10px;
+      color: #191919;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav-container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <!-- Add other navigation links as needed -->
+        </ul>
+      </nav>
+      <div class="date">
+        <script>
+          const today = new Date();
+          const day = today.getDate();
+          const month = today.getMonth() + 1;
+          const year = today.getFullYear();
+          const monthNames = [
+            "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+          ];
+          const formattedDate = `${day} ${monthNames[month - 1]} ${year}`;
+          document.querySelector('.date').textContent = formattedDate;
+        </script>
+      </div>
+    </header>
+  </div>
+  <div class="title">
+    <h1>Bakers App Concept</h1>
+  </div>
+  <div class="container-project">
+    <div class="container-card">
+      <img src="images-git/bakers-liquid-background.png" alt="Bakers app concept">
+      <div class="card">
+        <h1>Bakers App</h1>
+        <p>Bakers is an app exclusively for desserts and bakery, supporting local and other small businesses in the area. I first thought about the concept of the app as I am a baking enthusiast and have a passion for baking. There was a time when I wanted to sell my products but couldn't find a specific platform. I wanted to sell on and big apps like Deliveroo and others aren’t friendly for startups.</p>
+        <p>Click <a href="https://xd.adobe.com/view/d381f0e8-9c53-459c-83c9-f055d39d57b4-86d2/" class="link-to-site" target="_blank">here!</a> to check the prototype</p>
+      </div>
+      <div class="image-grid">
+        <div class="left">
+          <img src="images-git/bakeers2.png" alt="Bakers App Image 1">
+        </div>
+        <div class="right">
+          <img src="images-git/bakersapp.svg" alt="Bakers App Image 2">
+          <img src="images-git/screensbakers copy.png" alt="Bakers App Image 3">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-links">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fa-solid fa-basketball"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div>
+      Thank you for your time. Made by Karina Basurto 2024 <i class="fas fa-heart"></i>
+    </div>
+  </div>
+</body>
+</html>
