@@ -444,7 +444,14 @@ h2 {
   display: block;
   margin: 0 auto;
 }
-
+@media(max-width: 850px) {
+  .image-about-me {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
 
 /* media */
 /* @media (max-width: 1200px) {
